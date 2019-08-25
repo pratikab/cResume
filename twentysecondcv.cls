@@ -251,12 +251,14 @@
 
 \renewcommand{\subsection}[1]{
 	\par{%
-		\textbf{\large\color{gray} #1}%
+		\textbf{\color{black} #1
+		}%
+		\vspace{-0.07cm}
 	}
 %
 }
 \renewcommand{\subsubsection}[1]{
-	{\color{mainblue} #1}%
+	\hspace{-0.2cm}{\color{mainblue} #1}%
 %
 }
 \newcommand{\updateinfo}[1][\today]{\par\vfill\hfill{\scriptsize\color{gray}Last updated on #1}}
