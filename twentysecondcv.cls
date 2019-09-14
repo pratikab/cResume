@@ -244,8 +244,10 @@
 
 \renewcommand{\section}[1]{
 	{%
+	    \vspace{-1mm}
 		\color{gray}%
 		\Large\sectioncolor{#1}%
+		\vspace{-1mm}
 	}
 }
 
